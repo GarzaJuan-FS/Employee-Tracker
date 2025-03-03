@@ -48,7 +48,7 @@ class Main {
 
   displayMenu() {
     console.clear();
-    this.displayEmployees(false); // Display employees without showing the menu again
+    this.displayEmployees(false);
     const menu = `
       JohnnyBoy's INC\n
       1. Add Employee
